@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="Imagens/favicon.ico"  type="image/x-icon">
+        <link rel="stylesheet" href="Css/style.css">
+        <!-- Eu entendi -->
+
+</head>
+<body>
+    <<nav>
+        <ul type="disc">
+            <li ><a href="index.html">Início</a></li>
+        <li>Curiosidades</li>
+        <ul type="circle">
+            <li><a href="Retencao_Receitas.html">Retencao_Receitas</a></li>
+            <li><a href="perigosAuto-Medicação.html">Perigos da Auto-Medicação</a></li>
+            <li><a href="Rinordil.html">Rinordil</a></li>
+            
+        </ul>
+        
+        <li><a href="imagens.html">Galeria</a></li>    
+        <li><a href="download.html"rel="prev">Downloads</a></li>
+        <li><a href="formulario.html">formulario</a></li>
+        <li><a href="faleConosco.html"rel="next">Fale Conosco</a></li>
+            
+        </ul>
+    </nav> 
+    <hr>  
+    <h1>Responda ao Formulario</h1>
+
+
+    <form>
+        <fieldset>
+                <legend>Coloque seus Dados</legend>
+                <p><label for="idTexto">Texto:</label><input type="text" name="nTexto" id="idTexto" size="40" placeholder="Um exemplo ou direcionamento para o usuário"></p>
+                <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail" placeholder="exemplo01@gmail.com"></p>
+                <p><label for="idData">Data:</label><input type="date" name="nData" id="idData"></p>
+                <p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Você toma Remédios?</legend>
+            <label for="id1">Opções</label><br><input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 1" id="id1"><label
+                for="id1">Não</label>
+            <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 2" id="id2"><label for="id2">Pouco</label>
+            <input type="radio" name="IgualParaTodosOsRadioDeUmaMesmaEntrada" value="Opção 3" id="id3"><label for="id3">Muito</label>
+            <br>
+            <br>
+            <label for="idNum">Quantos remédios toma por dia?</label><br><input type="number" name="nNum" id="idNum" min="0" max="10">
+            <br>
+            <br>
+            <label for="idSelecao">Quais farmacias da região você mais compra?</label><br>
+            <select name="nSelecao" id="idSelecao">
+                <option value="Coisa 1">Joww Farma</option>
+                <option value="Coisa 2">Drogasil</option>
+                <option value="Coisa 3">Farmacia do Careca</option>
+                <option value="Coisa 4">Itaminas</option>
+                <option value="Coisa 5">Farmacia CEFET</option>
+            </select>
+            <br>
+            <br>    
+            <label for="idRange">Nivel de AutoMedicação </label><br><input type="range" min="1" max="10" name="nRange" id="idRange">
+            <br>
+            <br>
+            <label for="idCaixa">Escreva suas Duvidas:</label><br><textarea type="text" cols="50" rows="10" placeholder="Digite aqui alguma coisa" name="nCaixa" id="idCaixa"></textarea><br>
+        </fieldset>
+    </form>

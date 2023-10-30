@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root
+{
+    --Violeta-Russa: #441151;
+    --Ameixa: #883677;
+    --Mauce-Frances:#ca61c3;
+    --Rosa-Persa: #ee85b5;
+    --coral-Rosa: #ff958c;
+    --preto: #000000;
+    --branco: #ffffff;
+}
+p 
+{
+    background-color: #ff958c;
+}
+/*inline*/
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.2em;
+}
+
+*
+{
+    background-color:#ca61c3;
+}
+li
+{
+    color: #000000;
+    font-size: 1,5em;
+}
+option
+{
+    background-color: #ffffff;
+    color: #ee85b5;
+}
